@@ -1,0 +1,29 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+    
+
+    Scanner sc = new Scanner(System.in);
+    
+    double a = sc.nextDouble();
+    double b = sc.nextDouble();
+    double c = sc.nextDouble();
+    
+    double Atriangulo = (a * c)/2;
+    double Acirculo = (3.14159 * Math.pow(c, 2));
+    double Atrapezio = ((a + b) * c)/2;
+    double Aquadrado = Math.pow(b, 2);
+    double Aretangulo = (a * b);
+    
+    System.out.printf("TRIANGULO: %.3f\n", Atriangulo);
+    System.out.printf("CIRCULO: %.3f\n", Acirculo);
+    System.out.printf("TRAPEZIO: %.3f\n", Atrapezio);
+    System.out.printf("QUADRADO: %.3f\n", Aquadrado);
+    System.out.printf("RETANGULO: %.3f\n", Aretangulo);
+    
+    }
+ 
+}
