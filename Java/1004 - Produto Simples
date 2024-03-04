@@ -1,0 +1,21 @@
+//1004 - Produto Simples
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+    
+    Scanner sc = new Scanner(System.in);
+    
+    int A = sc.nextInt();
+    int B = sc.nextInt();
+    
+    double prod = A*B;
+    
+    System.out.printf("PROD = %.0f\n", prod);
+    
+    }
+ 
+}
