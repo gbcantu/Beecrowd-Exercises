@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+    
+
+    Scanner sc = new Scanner(System.in);
+    
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+    
+    int MaiorAB = (a + b + Math.abs(a - b)) / 2;
+    int MaiorABC = (MaiorAB + c + Math.abs(MaiorAB - c)) / 2;
+    
+    System.out.println(MaiorABC + " eh o maior");
+    
+    }
+ 
+}
